@@ -8,11 +8,11 @@
     "test": "./node_modules/mocha/bin/mocha --recursive"
   },
   "dependencies": {
-    "superagent": "1.7.1"
+    "superagent": "4.0.0-beta.5"
   },
   "devDependencies": {
-    "mocha": "~2.3.4",
-    "sinon": "1.17.3",
+    "mocha": "~5.2.0",
+    "sinon": "6.3.5",
     "expect.js": "~0.3.1"
   }
 }
