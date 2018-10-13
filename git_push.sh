@@ -3,9 +3,9 @@
 #
 # Usage example: /bin/sh ./git_push.sh wing328 swagger-petstore-perl "minor update"
 
-git_user_id=$1"andraszemes"
-git_repo_id=$2"nokia_tas_call_direction_api"
-release_note=$3"Publish Nokia TAS Call Direction API"
+git_user_id=$1
+git_repo_id=$2
+release_note=$3
 
 if [ "$git_user_id" = "" ]; then
     git_user_id=""
